@@ -20,5 +20,12 @@ npm run build
 npm run test:unit
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+# Topics
+
+* Mount
+* Axios
+* Emit events
+* Listening custom events
+* Functions to generate random data
+* Logic to solve the application
+
