@@ -23,7 +23,7 @@ import PokemonOptions from '@/components/PokemonOptions.vue'
 import PokemonPicture from '@/components/PokemonPicture.vue'
 
 //import getPokemonOptions from '@/helpers/getPokemonOptions'
-import getPokemonOptions from '../helpers/PokemonOptions'
+import getPokemonOptions from '../helpers/getPokemonOptions'
 
 //console.log(getPokemonOptions());
 
@@ -54,6 +54,7 @@ export default {
       } else {
         this.message= `Ops, It was ${this.pokemon.name}`
       }
+
     },
     newGame() {
       this.showPokemon = false
